@@ -19,3 +19,6 @@ jobs:
               gradle test
               pwd
               ls -l
+              cd build
+              pwd
+              ls -l
