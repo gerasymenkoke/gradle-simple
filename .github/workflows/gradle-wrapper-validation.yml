@@ -22,3 +22,5 @@ jobs:
               cd build
               pwd
               ls -l
+              cd libs
+              java -jar gradle-simple.jar
