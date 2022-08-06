@@ -17,3 +17,5 @@ jobs:
       - run: |
               gradle build  
               gradle test
+              pwd
+              ls -l
