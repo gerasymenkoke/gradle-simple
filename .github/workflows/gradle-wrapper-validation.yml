@@ -16,3 +16,4 @@ jobs:
       - uses: gradle/wrapper-validation-action@v1
       - run: |
               gradle build  
+              gradle test
