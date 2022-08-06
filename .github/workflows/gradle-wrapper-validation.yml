@@ -23,4 +23,5 @@ jobs:
               pwd
               ls -l
               cd libs
+              ls -l
               java -jar gradle-simple.jar
