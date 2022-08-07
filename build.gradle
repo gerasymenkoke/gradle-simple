@@ -11,6 +11,16 @@ repositories {
   mavenCentral()
 }
 
+
+repositories { 
+     jcenter()
+     maven { url "https://jitpack.io" }
+}
+dependencies {
+      implementation 'com.github.jitpack:gradle-simple:1.1'
+}
+
+
 dependencies {
   implementation 'com.google.guava:guava:29.0-jre'
 }
